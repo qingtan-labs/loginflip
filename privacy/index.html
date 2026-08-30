@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#6757f5">
+  <meta name="description" content="How LoginFlip processes login-state snapshots locally on your device.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="LoginFlip">
+  <meta property="og:title" content="Privacy Policy — LoginFlip">
+  <meta property="og:description" content="How LoginFlip processes login-state snapshots locally on your device.">
+  <meta property="og:url" content="https://qingtan-labs.github.io/loginflip/privacy/">
+  <meta property="og:image" content="https://qingtan-labs.github.io/loginflip/assets/promo-en.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://qingtan-labs.github.io/loginflip/privacy/">
+  <link rel="icon" href="../assets/icon-128.png" type="image/png">
+  <link rel="stylesheet" href="../assets/site.css">
+  <title>Privacy Policy — LoginFlip</title>
+</head>
+<body data-page="privacy">
+  <a class="skip-link" href="#main"><span data-lang-copy="en">Skip to content</span><span data-lang-copy="zh">跳到主要内容</span></a>
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a class="brand" href="../" aria-label="LoginFlip home"><img src="../assets/icon-128.png" alt="" width="36" height="36"><span>LoginFlip</span></a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="../#features"><span data-lang-copy="en">Features</span><span data-lang-copy="zh">功能</span></a>
+        <a href="./"><span data-lang-copy="en">Privacy</span><span data-lang-copy="zh">隐私</span></a>
+        <a href="../support/"><span data-lang-copy="en">Support</span><span data-lang-copy="zh">支持</span></a>
+      </nav>
+      <button class="language-switch" type="button" data-language-toggle aria-label="切换为简体中文">中文</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="legal-hero">
+      <div class="container">
+        <span class="section-kicker" data-lang-copy="en">Transparent by design</span><span class="section-kicker" data-lang-copy="zh">透明是产品设计的一部分</span>
+        <h1 data-lang-copy="en">Privacy Policy</h1><h1 data-lang-copy="zh">隐私政策</h1>
+        <p data-lang-copy="en">What LoginFlip processes, why permissions are needed, where data stays, and how you remain in control.</p>
+        <p data-lang-copy="zh">LoginFlip 处理什么数据、为什么需要权限、数据保存在哪里，以及你如何始终保持控制。</p>
+        <div class="legal-meta"><span class="legal-badge">LoginFlip 1.0.0</span><span class="legal-badge" data-lang-copy="en">Updated August 29, 2026</span><span class="legal-badge" data-lang-copy="zh">更新于 2026 年 8 月 29 日</span></div>
+      </div>
+    </section>
+
+    <div class="container legal-layout">
+      <nav class="legal-nav" aria-label="Privacy policy sections">
+        <a href="#data"><span data-lang-copy="en">Data on your device</span><span data-lang-copy="zh">本机数据</span></a>
+        <a href="#permissions"><span data-lang-copy="en">Permissions</span><span data-lang-copy="zh">权限用途</span></a>
+        <a href="#retention"><span data-lang-copy="en">Retention</span><span data-lang-copy="zh">保存期限</span></a>
+        <a href="#backup"><span data-lang-copy="en">Backups</span><span data-lang-copy="zh">备份保护</span></a>
+        <a href="#control"><span data-lang-copy="en">Your control</span><span data-lang-copy="zh">用户控制</span></a>
+        <a href="#contact"><span data-lang-copy="en">Contact</span><span data-lang-copy="zh">联系信息</span></a>
+      </nav>
+
+      <article class="legal-article">
+        <section id="data">
+          <h2 data-lang-copy="en">Data processed on your device</h2><h2 data-lang-copy="zh">本机处理的数据</h2>
+          <p data-lang-copy="en">To save and switch website login states, LoginFlip processes applicable cookies, localStorage for the current full website origin, the active tab URL, account names, and website aliases. This data may include sensitive credentials capable of signing in to an account.</p>
+          <p data-lang-copy="zh">LoginFlip 为保存和切换网站登录状态，在使用相关功能时读取适用网站的 Cookie、当前完整网站地址的 localStorage、标签页 URL，以及用户填写的账号名称与网站别名。这些内容可能含有足以直接登录账号的敏感凭据。</p>
+          <p data-lang-copy="en">LoginFlip has no product account, developer server, cloud sync, telemetry, advertising, or third-party analytics SDK. Account data is not uploaded, sold, or shared with the developer or third parties. Websites still receive their own applicable cookies when Chrome opens or refreshes them; LoginFlip is not an anonymity tool.</p>
+          <p data-lang-copy="zh">当前版本没有产品账号、开发者服务器、云同步、遥测、广告或第三方分析 SDK。账号数据不会上传、出售或分享给开发者或第三方。Chrome 打开或刷新网站时，网站仍会按照自身规则接收适用 Cookie；LoginFlip 不是匿名浏览工具。</p>
+        </section>
+
+        <section id="permissions">
+          <h2 data-lang-copy="en">Why permissions are required</h2><h2 data-lang-copy="zh">为什么需要这些权限</h2>
+          <ul data-lang-copy="en">
+            <li><code>cookies</code>: capture, clear, restore, and verify applicable regular and current same-site partitioned cookies.</li>
+            <li><code>storage</code>: keep accounts, preferences, workflow state, and limited recovery data locally. LoginFlip does not use <code>storage.sync</code>.</li>
+            <li><code>tabs</code>: identify the current website, associate accounts with tabs, open websites, reload pages, and activate linked tabs.</li>
+            <li><code>scripting</code>: read and restore localStorage on an accessible page after checking its exact origin.</li>
+            <li><code>http://*/*</code> and <code>https://*/*</code>: support ordinary websites selected by the user and applicable parent-domain cookies. LoginFlip does not automatically capture every visited website.</li>
+          </ul>
+          <ul data-lang-copy="zh">
+            <li><code>cookies</code>：读取、清除、恢复和校验适用的普通 Cookie，以及当前顶层网站同站上下文的分区 Cookie。</li>
+            <li><code>storage</code>：在本机保存账号、设置、流程与有限恢复数据；不使用 <code>storage.sync</code>。</li>
+            <li><code>tabs</code>：识别当前网站、关联账号与标签页、打开网站、刷新页面和激活关联标签。</li>
+            <li><code>scripting</code>：核对网页完整 origin 后，在可访问页面中读取和恢复 localStorage。</li>
+            <li><code>http://*/*</code> 与 <code>https://*/*</code>：支持用户选择的普通网站及其适用父域 Cookie；LoginFlip 不会自动保存每个访问网站。</li>
+          </ul>
+        </section>
+
+        <section id="retention">
+          <h2 data-lang-copy="en">Storage and retention</h2><h2 data-lang-copy="zh">保存位置与期限</h2>
+          <ul data-lang-copy="en">
+            <li>Saved accounts, names, aliases, and preferences remain in Chrome extension local storage until the user deletes them or uninstalls LoginFlip.</li>
+            <li>At most one previous snapshot per account is retained and cleaned after 24 hours on a later initialization or write.</li>
+            <li>At most one failed-switch recovery record is held in session storage for up to 24 hours and may disappear earlier when Chrome or the extension restarts.</li>
+            <li>Pending workflows, drafts, search, and tab associations use session storage and are not guaranteed across a browser restart.</li>
+            <li>An account explicitly saved from an incognito window remains in extension local storage after the incognito window closes.</li>
+          </ul>
+          <ul data-lang-copy="zh">
+            <li>已保存账号、名称、别名与设置保存在 Chrome 扩展本地存储中，直到用户删除或卸载 LoginFlip。</li>
+            <li>每个账号最多保留一份上一快照，并在 24 小时后于后续初始化或写入时清理。</li>
+            <li>切换失败恢复记录最多一份，保存在会话存储中不超过 24 小时；Chrome 或扩展重启后可能更早消失。</li>
+            <li>待处理流程、草稿、搜索和标签关联使用会话存储，不保证跨浏览器重启保留。</li>
+            <li>用户在无痕窗口中主动保存的账号，在无痕窗口关闭后仍会保留在扩展本地存储中。</li>
+          </ul>
+        </section>
+
+        <section id="backup">
+          <h2 data-lang-copy="en">Backup protection</h2><h2 data-lang-copy="zh">备份保护</h2>
+          <p data-lang-copy="en">Password-encrypted backup is recommended. The passphrase is used locally for that operation and is not stored or uploaded. Holding an encrypted file still allows offline guessing of a weak passphrase, so use a unique long passphrase. A plain JSON backup may contain usable login credentials.</p>
+          <p data-lang-copy="zh">推荐使用口令加密备份。口令只在本机本次操作中使用，不保存、不上传。持有加密文件的人仍可离线猜测弱口令，因此请使用独特的长口令。明文 JSON 可能包含可直接登录的凭据。</p>
+          <p data-lang-copy="en">Backup encryption does not add separate encryption to the live database in Chrome local storage and cannot protect browser data from malware or another party with device-level access.</p>
+          <p data-lang-copy="zh">备份加密不会给 Chrome 本地存储中的运行数据库额外加密，也无法防止恶意软件或具有设备级访问权限的其他人读取浏览器数据。</p>
+        </section>
+
+        <section id="control">
+          <h2 data-lang-copy="en">Deletion and user control</h2><h2 data-lang-copy="zh">删除与用户控制</h2>
+          <p data-lang-copy="en">Users can delete one account, all accounts for a website, previous snapshots, or failure-recovery data from LoginFlip, and can disable or uninstall the extension. Exported backup files remain in the location chosen by the user and must be deleted separately.</p>
+          <p data-lang-copy="zh">用户可以删除单个账号、某网站的全部账号、上一快照或失败恢复数据，也可以停用或卸载扩展。导出的备份文件保留在用户选择的位置，需要单独删除。</p>
+          <p data-lang-copy="en">Deleting local data does not sign out or revoke a server-side account. Use the website's own account-security controls when revocation is required.</p>
+          <p data-lang-copy="zh">删除本地数据不等于退出网站或撤销服务端账号；需要撤销时，请使用网站自身的账号安全功能。</p>
+        </section>
+
+        <section id="contact">
+          <h2 data-lang-copy="en">Publisher, compliance, and contact</h2><h2 data-lang-copy="zh">发布者、合规与联系</h2>
+          <p data-lang-copy="en">Publisher: qingtan, individual developer and non-trader. Privacy contact: <a href="mailto:xinning000@gmail.com">xinning000@gmail.com</a>.</p>
+          <p data-lang-copy="zh">发布者：qingtan，个人开发者、非交易者。隐私联系邮箱：<a href="mailto:xinning000@gmail.com">xinning000@gmail.com</a>。</p>
+          <p data-lang-copy="en">LoginFlip's use of information received from Chrome APIs complies with the Chrome Web Store User Data Policy, including Limited Use requirements. LoginFlip does not sell user data or use it for advertising, credit decisions, or purposes unrelated to its single purpose, and it does not transfer login snapshots to third parties or developer-operated servers.</p>
+          <p data-lang-copy="zh">LoginFlip 对从 Chrome API 获得的信息的使用符合 Chrome Web Store User Data Policy，包括 Limited Use 要求。LoginFlip 不出售用户数据，不将其用于广告、信用评估或与扩展单一用途无关的目的，也不向第三方或开发者服务器传输登录快照。</p>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-grid"><div class="brand footer-brand"><img src="../assets/icon-128.png" alt="" width="32" height="32"><span>LoginFlip</span></div><div class="footer-links"><a href="../"><span data-lang-copy="en">Home</span><span data-lang-copy="zh">首页</span></a><a href="../support/"><span data-lang-copy="en">Support</span><span data-lang-copy="zh">支持</span></a><a href="mailto:xinning000@gmail.com"><span data-lang-copy="en">Contact</span><span data-lang-copy="zh">联系开发者</span></a></div><p>© <span data-current-year>2026</span> qingtan · LoginFlip</p></div></footer>
+  <script src="../assets/site.js" defer></script>
+</body>
+</html>

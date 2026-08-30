@@ -1,0 +1,12 @@
+{
+  "name": "LoginFlip",
+  "short_name": "LoginFlip",
+  "description": "Local multi-account session switching for Chrome.",
+  "start_url": "./",
+  "display": "browser",
+  "background_color": "#f7f8fc",
+  "theme_color": "#6757f5",
+  "icons": [
+    { "src": "assets/icon-128.png", "sizes": "128x128", "type": "image/png" }
+  ]
+}
