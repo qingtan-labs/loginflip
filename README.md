@@ -18,8 +18,15 @@ The website uses no analytics, tracking, advertising, remote fonts, cookies, for
 - `/privacy/` — English and Simplified Chinese privacy policy
 - `/support/` — compatibility, troubleshooting, security, and contact
 
+## Live links
+
+- [Product website](https://qingtan-labs.github.io/loginflip/)
+- [Install from the Chrome Web Store](https://chromewebstore.google.com/detail/loginflip/mmkolcfdcgnimofbijnkmmehnhmmonok)
+- [Privacy policy](https://qingtan-labs.github.io/loginflip/privacy/)
+- [Support](https://qingtan-labs.github.io/loginflip/support/)
+
 ## Publishing
 
-GitHub Actions deploys the static files to GitHub Pages after a push to `main`. The Chrome Web Store call to action remains “In review” until the public store listing is available.
+GitHub Actions deploys the static files to GitHub Pages after a push to `main`. LoginFlip 1.0.0 is publicly available on the Chrome Web Store.
 
 Copyright © 2026 qingtan. All rights reserved.
