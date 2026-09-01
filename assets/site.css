@@ -225,7 +225,7 @@ h1 em { color: var(--primary); font-style: normal; }
 .check-list li > span:first-child { width: 22px; height: 22px; flex: 0 0 auto; display: grid; place-items: center; color: var(--green); background: color-mix(in srgb, var(--green) 13%, transparent); border-radius: 50%; font-size: 12px; }
 .text-link { color: var(--primary-strong); font-size: 14px; font-weight: 800; text-decoration: none; }
 .privacy-visual { position: relative; padding: 22px; background: linear-gradient(135deg, rgba(100, 84, 245, .17), rgba(77, 141, 247, .12)); border: 1px solid var(--line-strong); border-radius: var(--radius-lg); }
-.privacy-visual img { width: 100%; border-radius: 18px; box-shadow: var(--shadow-lg); }
+.privacy-visual img { width: 100%; height: auto; border-radius: 18px; box-shadow: var(--shadow-lg); }
 
 .boundary-card { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; padding: clamp(34px, 6vw, 70px); color: #fff; background: linear-gradient(135deg, #342b78, #5b48d6 60%, #3a73d9); border-radius: var(--radius-lg); box-shadow: var(--shadow-lg); }
 .boundary-card .section-kicker { color: #d8d2ff; }
