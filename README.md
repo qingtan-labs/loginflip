@@ -21,7 +21,7 @@ The website uses no analytics, tracking, advertising, remote fonts, cookies, for
 ## Live links
 
 - [Product website](https://qingtan-labs.github.io/loginflip/)
-- [Install from the Chrome Web Store](https://chromewebstore.google.com/detail/loginflip/mmkolcfdcgnimofbijnkmmehnhmmonok)
+- [Install from the Chrome Web Store](https://chromewebstore.google.com/detail/mmkolcfdcgnimofbjjnkmmehnhmmonok)
 - [Privacy policy](https://qingtan-labs.github.io/loginflip/privacy/)
 - [Support](https://qingtan-labs.github.io/loginflip/support/)
 
