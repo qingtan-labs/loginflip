@@ -253,7 +253,9 @@ h1 em { color: var(--primary); font-style: normal; }
 .site-footer { padding: 30px 0 42px; border-top: 1px solid var(--line); }
 .footer-grid { display: grid; grid-template-columns: 1fr auto 1fr; gap: 24px; align-items: center; }
 .footer-brand { font-size: 16px; }
-.footer-links { display: flex; align-items: center; gap: 24px; }
+.footer-links { display: flex; align-items: center; gap: 24px; flex-wrap: wrap; }
+.footer-links .fazier-badge { display: inline-flex; align-items: center; }
+.footer-links .fazier-badge img { width: 130px; height: auto; }
 .footer-grid > p { margin: 0; color: var(--muted); font-size: 12px; text-align: right; }
 
 .legal-hero { padding: 72px 0 38px; }
